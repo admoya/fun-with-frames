@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        let handle;
+        const openWindow = () => {
+            handle = window.open('https://google.com');
+        }
+        const closeWindow = () => {
+            handle.close();
+        }
+    </script>
+    <body>
+        <button onclick="openWindow()">Open a Window</button>
+        <button onclick="closeWindow()">Close Window</button>
+    </body>
+</html>
